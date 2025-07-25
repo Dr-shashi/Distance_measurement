@@ -17,5 +17,8 @@ This project calculates road distances and travel times from **Srinagar Garhwal*
 - Saves results as both static `.png` and interactive `.html`.
 
 ---
+### 2. Install Required Packages
+```bash
+pip install requests plotly 
 
-## 🚀 How to Run
+
