@@ -17,8 +17,20 @@ This project calculates road distances and travel times from **Srinagar Garhwal*
 - Saves results as interactive `.html`.
 
 ---
-### 2. Install Required Packages
+### Install Required Packages
 ```bash
 pip install requests plotly 
 
+## 🔑 API Key Setup
+
+1. Visit [Google Cloud Console](https://console.cloud.google.com/)
+2. Create/select a project
+3. Enable:
+   - APIs & Services → Library → Distance Matrix API → Enable
+4. Go to:
+   - APIs & Services → Credentials → Create Credentials → API key
+5. Replace the placeholder in the script with your key:
+
+```python
+API_KEY = "YOUR_API_KEY_HERE"
 
