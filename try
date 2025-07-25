@@ -1,0 +1,126 @@
+Here's the updated and complete `README.md` based on what you've already written, with the missing and best-practice sections added:
+
+---
+
+````markdown
+# Distance_Measurement
+
+This project calculates and visualizes road distances and travel times from **Srinagar Garhwal** to all **15 block headquarters** in **Pauri Garhwal district, Uttarakhand**, using the **Google Distance Matrix API** and **Plotly**.
+
+![Distance Plot Screenshot](srinagar_to_blocks_distance.png)
+
+---
+
+## 📊 Features
+
+- Fetches live road distances and durations using Google Distance Matrix API
+- Sorts destinations based on **travel time**
+- Creates a **color-coded Plotly bar chart** with distance/time annotations
+- Saves output as both `.png` and interactive `.html` files
+
+---
+
+## 🛠️ Installation
+
+### 1. Clone or Download the Repository
+
+Or manually upload all files to a GitHub repo.
+
+### 2. Install Required Packages
+
+```bash
+pip install requests plotly python-dotenv
+````
+
+---
+
+## 🔑 API Key Setup
+
+1. Go to [Google Cloud Console](https://console.cloud.google.com/)
+2. Create or select a project.
+3. Enable:
+
+   * **Distance Matrix API**: Go to "APIs & Services" → "Library" → search and enable **Distance Matrix API**
+4. Navigate to:
+
+   * "APIs & Services" → "Credentials" → "Create Credentials" → **API key**
+5. Copy your API key.
+
+### ▶️ Use Your API Key
+
+#### Option 1: Directly in the script (quick test)
+
+In your Python file (e.g. `distance_plot.py`), replace:
+
+```python
+API_KEY = "YOUR_API_KEY_HERE"
+```
+
+#### Option 2: Secure method using `.env` file (recommended)
+
+1. Create a file named `.env` in the same folder:
+
+   ```
+   API_KEY=your_actual_api_key
+   ```
+
+2. Add this in your Python script:
+
+   ```python
+   from dotenv import load_dotenv
+   import os
+   load_dotenv()
+   API_KEY = os.getenv("API_KEY")
+   ```
+
+3. Also add `.env` to `.gitignore` if using Git.
+
+---
+
+## 💡 Example Output
+
+* Bar chart showing distances (km) and travel times (hh\:mm) from Srinagar to each block HQ.
+* Interactive chart saved as:
+
+  * `srinagar_to_blocks_distance.html`
+  * Image snapshot: `srinagar_to_blocks_distance.png`
+
+---
+
+## 📁 Files Included
+
+* `distance_plot.py` – main script
+* `README.md` – project documentation
+* `srinagar_to_blocks_distance.png` – preview image
+* `srinagar_to_blocks_distance.html` – interactive HTML output
+* `.env` (optional, not uploaded) – for API key
+* `requirements.txt` – dependencies list
+
+---
+
+## 👨‍💻 Author
+
+**Shashi Narayan**
+Department of Civil Engineering
+NIT Uttarakhand
+📧 \[[your-email@example.com](mailto:your-email@example.com)]
+
+---
+
+## 📄 License
+
+This project is licensed under the MIT License.
+See the [LICENSE](LICENSE) file for details.
+
+```
+
+---
+
+Let me know if you'd like:
+- A `.gitignore` file
+- A `requirements.txt` file
+- A project banner
+- Markdown badge icons (e.g., Python version, license, etc.)
+
+This version is ready to copy and use directly in your repo.
+```
