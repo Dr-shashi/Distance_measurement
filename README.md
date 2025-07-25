@@ -36,5 +36,4 @@ API_KEY = "YOUR_API_KEY_HERE"
 ### Install Required Packages
 ```bash
 pip install requests plotly 
----
-```python
+
