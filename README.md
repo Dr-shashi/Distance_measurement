@@ -37,3 +37,13 @@ API_KEY = "YOUR_API_KEY_HERE"
 ```bash
 pip install requests plotly 
 ```
+---
+
+## 👨‍💻 Author
+
+**Shashi Narayan**
+Department of Civil Engineering
+NIT Uttarakhand
+📧 \[[shahsi@nituk.ac.in](mailto:shashi@nituk.ac.in)]
+
+---
