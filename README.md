@@ -14,7 +14,7 @@ This project calculates road distances and travel times from **Srinagar Garhwal*
 - Creates an interactive Plotly bar chart.
 - Sorts blocks by **travel time**.
 - Annotates each bar with distance and duration.
-- Saves results as both static `.png` and interactive `.html`.
+- Saves results as interactive `.html`.
 
 ---
 ### 2. Install Required Packages
