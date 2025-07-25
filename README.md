@@ -17,11 +17,16 @@ This project calculates road distances and travel times from **Srinagar Garhwal*
 - Saves results as interactive `.html`.
 
 ---
-### Install Required Packages
+## Install Required Packages
 ```bash
 pip install requests plotly 
+---
+
+---
 
 ## 🔑 API Key Setup
+
+
 
 1. Visit [Google Cloud Console](https://console.cloud.google.com/)
 2. Create/select a project
