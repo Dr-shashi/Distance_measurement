@@ -2,7 +2,7 @@ import requests
 import plotly.graph_objects as go
 
 # Your Google API Key
-API_KEY = 'AIzaSyCNkNOop9cSja3RKs9z1ChdwPRIYA4_0aA'
+API_KEY = '"YOUR_API_KEY_HERE"'
 
 origin = 'Srinagar Garhwal, Uttarakhand, India'
 destinations = [
@@ -99,3 +99,4 @@ fig.show()
 fig.write_html("srinagar_to_blocks_distance.html")
 
 print("Figure saved as  'srinagar_to_blocks_distance.html'")
+
